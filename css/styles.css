@@ -1,0 +1,233 @@
+
+.map{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:white;
+    margin:-85%  0  0 0;
+    width: 80%;
+    height: 82%;
+    border:2px solid rgba(0,0,0,0.4);
+    box-shadow: 5px 5px 15px  rgba(0,0,0,0.4);
+    border-radius: 5px;
+    position:fixed;
+    
+
+    visibility:hidden;
+}
+
+@media (max-width:1380px){
+    .map{
+    margin:-95% 0 0 0;
+    }
+}
+
+@media (max-width:1330px){
+    .map{
+    margin:-98% 0 0 0;
+    }
+}
+
+@media (max-width:1290px){
+    .map{
+    margin:-100% 0 0 0;
+    }
+}
+
+@media (max-width:1250px){
+    .map{
+    margin:-102% 0 0 0;
+    }
+}
+
+@media (max-width:1200px){
+    .map{
+    margin:-108% 0 0 0;
+    }
+}
+
+@media (max-width:1150px){
+    .map{
+    margin:-1990px 0 0 0;
+    }
+}
+@media (max-width:1100px){
+    .map{
+    margin:-1970px 0 0 0;
+    }
+}
+@media (max-width:1090px){
+    .map{
+    margin:-1970px 0 0 0;
+    
+
+    }
+}
+
+
+#map_canvas{
+
+    width:95%;
+    height:93%;
+
+}
+
+#btnLocation{
+    color:white;
+    background: dodgerblue;
+    border:none;
+    width:100%;
+    height:40px;
+}
+
+[class~="header"]{
+    height:50px;
+    display: flex;
+    align-items: center;
+    background: white;
+}
+
+img{ 
+    width:100%;
+    height:280px;
+    align-self: center;
+    margin: 0 0 15px 0;
+
+    
+}
+.slider{
+    height: 700px;
+    background-image: url("../img/tienda.jpg");
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+video{
+    height:350px;
+    width:52%;
+    margin:2% 0 0 0;
+}
+/*
+.slider:hover{
+    filter:blur(1px);
+}
+*/
+.menu{
+    background: white;
+    height: 60px;
+    display:flex;
+    justify-content:center;
+    align-items:flex-end; 
+    
+    
+}
+
+.mune >ul{
+    box-sizing: border-box;
+    transition: all 0.35s ease;
+}
+.menu > ul > li{
+    display: inline-block;
+    padding:0 40px;
+    border-bottom:2px solid transparent;
+    cursor:pointer;
+    
+  
+}
+
+.menu > ul > li:hover{
+    border-bottom:  2px solid rgba(0, 0, 0, 0.4);
+    
+}
+
+.flex-container{
+    height:100%;
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.box{
+    margin:25px 0 0 0;
+    background: white;
+}
+
+img:hover{
+    transition:all 0.1s linear;
+    -webkit-transition:all 0.1s linear;
+    filter:brightness(0.7);
+}
+
+[class~="caja"]{
+    box-shadow:1px 1px 5px;
+    margin:18px;
+    height:420px;
+    width:400px;
+    padding:15px;
+    background:white;
+    box-sizing: border-box;
+
+    display:flex;
+    justify-content:flex-start;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+[class~="cont"]{
+    width:80%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-wrap: wrap;
+    margin: 5px 0 80px 0 ;
+    
+  
+}
+
+#c_foto{
+    display: flex;
+    background: red;
+    width:200px;
+    height:200px;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../img/perfil.jpg");
+    background-size: 100% 100%;
+    border-radius: 100px;
+
+    
+}
+
+
+
+#footer{
+    background: white;
+    height:200px;
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.6);
+    display:flex;
+    justify-content: center;
+    align-items:center;
+       
+}
+
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background:white;
+    
+}
+
+::-webkit-scrollbar-thumb {
+    background:gray;
+    
+    
+}
+
+
+

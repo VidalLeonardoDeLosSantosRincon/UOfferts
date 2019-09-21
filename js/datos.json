@@ -1,0 +1,48 @@
+{
+
+    "dato": [
+        {
+         "Id":1,
+         "image":"cell2.jpg",
+         "titulo":"Iphone 7",
+         "precio": 15000,
+         "ubicacion": ""
+        },
+        {
+            "Id":2,
+            "image":"mouse.jpg",
+            "titulo":"Mouse Gamer",
+            "precio": 1200,
+            "ubicacion": ""
+           },
+           {
+            "Id":3,
+            "image":"teclado.jpg",
+            "titulo":"Teclado Iluminado",
+            "precio": 3000,
+            "ubicacion": ""
+           },
+           {
+            "Id":4,
+            "image":"watch2.jpg",
+            "titulo":"Smart Watch",
+            "precio": 6500,
+            "ubicacion": ""
+           },
+           {
+            "Id":5,
+            "image":"xbox360.jpg",
+            "titulo":"Xbox 360 Slim",
+            "precio": 8000,
+            "ubicacion": ""
+           },
+           {
+            "Id":6,
+            "image":"discoDuro.jpg",
+            "titulo":"Disco Duro Portatil",
+            "precio": 2900,
+            "ubicacion": ""
+           }
+    ]
+
+}
